@@ -6,7 +6,7 @@ Approach: Aggregate monthly revenue using DATE_TRUNC, then use  SUM()
 Concepts: CTE, DATE_TRUNC, SUM(), IS NOT NULL filter
 
 
-Query:
+***Query***
 
 with cte as (
 select to_char(ood.order_delivered_customer_date::timestamp, 'MonthYYYY') as Month_Name,
