@@ -1,5 +1,13 @@
 Q3. Rank Products Within Each Category by Total Revenue
-  
+Tables: olist_order_items_dataset, olist_products_dataset, product_category_name_translation
+Approach: Grouped category and product to calculate revenue in cte,
+          Then used DENSE_RANK() to paritioned by category, order by
+          revenue in descending order.
+Concepts: CTE, RANK(), <> '', Mutliple Table Join
+
+***Query***
+
+
 with cte as (
 select pcnt.product_category_name_english as category_name,ooid.product_id as product,sum(ooid.price) as revenue 
 from olist_order_items_dataset ooid 
