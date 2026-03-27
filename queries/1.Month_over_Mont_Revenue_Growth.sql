@@ -25,3 +25,13 @@ from cte
 where month_date > '2016-12-01'
 order by month_date
 ;
+
+Why is this useful in business?
+
+To track whether the business is growing or shrinking.
+Identify causes of months with unsual drops or spikes.
+Help to set targets in upcoming months
+
+Formula used :
+Growth % = (Current_Month_Revenue - Previous_Month_Revenue ) / Previous_month_revenue * 100
+
