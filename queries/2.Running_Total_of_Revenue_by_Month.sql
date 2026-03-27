@@ -23,3 +23,9 @@ from cte
 where month_date > '2016-12-01'
 order by month_date
 ;
+
+Why is this useful in business?
+
+Track progress towards annual revenue targets
+See how fast the business is scaling over time
+Useful in executive dashboards and investor reports
