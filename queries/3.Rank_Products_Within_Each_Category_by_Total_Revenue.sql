@@ -19,3 +19,10 @@ group by category_name,product
 order by category_name
 )
 select cte.category_name,cte.product,dense_rank() over(partition by cte.catgeory_name order by cte.revenue desc) from cte;
+
+
+Why is this useful in business?
+
+Identify hero products in each category
+Helps with inventory planning — stock more of rank 1 products
+Used in category management by retail businesses
