@@ -12,7 +12,7 @@ aggregations, window functions, and date logic.
 
 ## 🗄️ Database Schema
 
-![Schema Diagram](Olist_Ecommerce_Dataset_Schema.png)
+![Schema Diagram](Project-3/Olist_Ecommerce_Dataset_Schema.png)
 
 ## 🔧 Tools Used
 - **Database:** PostgreSQL
