@@ -137,7 +137,7 @@ round(avg(revenue) over(order by month rows between 2 preceding and current row)
 from cte;
 
 
---Q8.
+--Q8.Average revenue of customer 1st 3 orders vs last 3 orders
 select 
 ocd.customer_unique_id,count(ood.order_id )
 from olist_customers_dataset ocd 
